@@ -1,0 +1,41 @@
+body {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #212529;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #712cf9;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    width: 134px;
+    height: 38px;
+}
+
+.button:hover {
+    background: #6528e0;
+}
+
+.button:active {
+    background: #461a9e;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+.icon_01 {
+    background-image: url('../src/img/icon_1.svg');
+}
+
+.icon_02 {
+    background-image: url('../src/img/icon_2.svg');
+}

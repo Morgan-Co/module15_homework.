@@ -1,0 +1,28 @@
+body {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #212529;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #712cf9;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    width: 134px;
+    height: 38px;
+    color: #ffffff;
+}
+
+button:hover {
+    background: #6528e0;
+}
+
+button:active {
+    background: #461a9e;
+}
